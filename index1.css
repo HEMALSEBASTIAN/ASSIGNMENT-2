@@ -1,0 +1,218 @@
+.container1{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15%;
+}
+.heading-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Tasks{
+    font-size: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+    color: rgb(47, 52, 56);
+}
+.Lists{
+    font-size: 50px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: lighter;
+    color: rgb(161, 161, 161);
+}
+.Add{
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    bottom: 5px;
+    color: rgb(161, 161, 161);
+}
+.fa-plus-circle{
+    color: orangered;
+    font-size: 37px;
+    position: relative;
+    top:5px;
+    right:20px  
+}
+
+
+
+
+.card-container1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card1{
+    border: 1px solid orangered;
+    width: 30%;
+    height: 285px;
+    border-radius: 5px/5px;
+    box-shadow: 4px 4px 4px 2px rgb(161, 161, 161);
+    margin-bottom: 5%;
+}
+.Trip{
+    color: orangered;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5vw;
+}
+.Completed{
+    text-align: center;
+    color: red;
+    text-decoration-color: red;
+    text-decoration-line: line-through;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.2vw;
+}
+.check-container{
+    margin-left: 9%;
+}
+.check{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.2vw;
+}
+
+
+
+
+.container2{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 7%;  
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+h1{
+    display: inline-block;
+    font-size: 3vw;
+    letter-spacing: 0.6px;
+}
+h1:before {
+    content: "";
+    display: inline-block;
+    width: 8vw;
+    height: 1px;
+    background: #55555a;
+    position: relative;
+    bottom: 1vw;
+    margin-right: 2vw;
+}
+h1:after {
+    content: "";
+    display: inline-block;
+    width: 8vw;
+    height: 1px;
+    background: #55555a;
+    position: relative;
+    bottom: 1vw;
+    margin-left: 2vw;
+}
+.Back{
+    padding-top: 1vw;
+    font-size: 2vw;
+    color:rgb(110, 105, 105);
+    position: relative;
+    bottom: 3px;
+}
+.fa-arrow-circle-left{
+    color: orangered;
+    font-size: 2.5vw;
+    padding-right: 1vw;
+    position: inherit;
+    top:3px;
+}
+.card2{
+    width: 40%;
+    height: 350px;
+    border: 1px solid salmon;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px/5px;
+    box-shadow: 4px 4px 4px 2px rgb(161, 161, 161);
+}
+@media (max-width:945px) {
+    .container2{
+        width: 464.5px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7%;  
+    }
+}
+@media (max-width:517px) {
+    .container2{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7%;
+    }
+}
+
+.add-new{
+    width: 25vw;
+    height: 12vw;
+    left:37.5vw;
+    right: 37.5vw;
+    top:0;
+    bottom:0;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: absolute;
+    border: 1px solid orangered;
+    border-radius: 7px/7px;
+    background-color: white;
+    text-align: center;
+}
+.add-new-item{
+    
+    margin-top: 1vw;
+    width: 4vw;
+    font-size: 1.1vw;
+    font-weight: 700;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    background-color: orangered;
+    border:1px solid orangered;
+    border-radius: 50%/100%;
+
+}
+@media (max-width: 1170px){
+    .container1{
+        width:460px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 1000px){
+    .add-new{
+        width: 35vw;
+        height: 15vw;
+        left:0;
+        right:0;
+        margin: auto;
+    }
+}
+@media (max-width: 770px){
+    .add-new{
+        width:50vw;
+        height: 25vw;
+        left:0;
+        right:0;
+        margin: auto;
+    }
+}
+@media (max-width: 450px){
+    .add-new{
+        width:60vw;
+        height: 40vw;
+        left:0;
+        right:0;
+        margin: auto;
+    }
+}
